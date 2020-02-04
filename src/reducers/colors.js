@@ -1,8 +1,7 @@
 
 import C from "../actions/actionTypes";
 import { color } from "../reducers/color";
-// import {addColor} from "../actions/addColor"
-// import mainState from "../State/MainState"
+
 
 export const colors = (state = [], action) => {
     switch (action.type) {

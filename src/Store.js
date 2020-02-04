@@ -1,16 +1,15 @@
-import MainState from "./State/MainState";
-import { color } from "./reducers/color";
+import initialState from "./State/initialState";
 import { colors } from "./reducers/colors";
 import { sort } from "./reducers/sort";
-import { addColor } from "./actions/addColor"
-import { rateColor } from "./actions/rateColor"
-import { sortBy } from "./actions/sortColor"
 import { createStore, combineReducers } from 'redux'
 
-const initialState = MainState;
-
+// const store = createStore(
+//     combineReducers({ colors, sort }), initialState
+// );
 const store = createStore(
-    combineReducers({ colors, sort }), initialState
+    combineReducers({ colors, sort }), (localStorage.getItem('redux-store')) ?
+        JSON.parse(localStorage['redux-store']) :
+        {}
 );
 export default store;
 

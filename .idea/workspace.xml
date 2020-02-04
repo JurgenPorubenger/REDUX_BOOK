@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85aede4-7173-4e20-aebd-72afff7fd746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/MainState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/addColor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/rateColor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/sortColor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/MainState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/initialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/colors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +93,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580657577022</updated>
-      <workItem from="1580657578149" duration="13193000" />
+      <workItem from="1580657578149" duration="13547000" />
+      <workItem from="1580755667306" duration="3580000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1580706787871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580706787871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,10 +114,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
