@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c85aede4-7173-4e20-aebd-72afff7fd746" name="Default Changelist" comment="">
+    <list default="true" id="c85aede4-7173-4e20-aebd-72afff7fd746" name="Default Changelist" comment="add local storage">
+      <change afterPath="$PROJECT_DIR$/src/actions/removeColor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/MainState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/initialState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/addColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/addColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/rateColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/rateColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/sortColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/sortColor.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +37,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reducers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +97,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580657577022</updated>
       <workItem from="1580657578149" duration="13547000" />
-      <workItem from="1580755667306" duration="3580000" />
+      <workItem from="1580755667306" duration="6140000" />
+      <workItem from="1581009378876" duration="599000" />
+      <workItem from="1581050085029" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1580706787871</created>
@@ -103,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580706787871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add local storage">
+      <created>1580794078513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580794078513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="add local storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add local storage" />
   </component>
 </project>
